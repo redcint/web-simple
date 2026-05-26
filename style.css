@@ -1,4 +1,4 @@
-/* === VARIABLES Y RESET === */
+
 * {
   margin: 0;
   padding: 0;
@@ -44,7 +44,6 @@ h2 {
   margin-bottom: 2rem;
 }
 
-/* === HEADER === */
 header {
   background-color: rgba(8, 14, 34, 0.95);
   position: sticky;
@@ -89,7 +88,6 @@ nav a:hover {
   background: rgba(0, 229, 255, 0.08);
 }
 
-/* === HERO === */
 .hero {
   background-image: url('https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1400&q=80');
   background-size: cover;
@@ -147,7 +145,6 @@ nav a:hover {
   color: var(--fondo);
 }
 
-/* === GALERÍA === */
 .galeria {
   background-color: var(--fondo-medio);
   padding: 70px 20px;
@@ -185,7 +182,6 @@ nav a:hover {
   letter-spacing: 1.5px;
 }
 
-/* === PRODUCTOS === */
 .productos {
   padding: 80px 20px;
   background-color: var(--fondo);
@@ -256,7 +252,6 @@ nav a:hover {
   border-color: var(--rosa);
 }
 
-/* === PRECIOS === */
 .precios {
   background-color: var(--fondo-medio);
   padding: 80px 20px;
@@ -322,7 +317,6 @@ tbody td:last-child {
   font-size: 0.85rem;
 }
 
-/* === NOSOTROS === */
 .nosotros {
   background-color: var(--fondo);
   padding: 80px 20px;
@@ -393,7 +387,6 @@ tbody td:last-child {
   border: 1px solid var(--borde);
 }
 
-/* === CONTACTO === */
 .contacto {
   background-color: var(--fondo-medio);
   padding: 80px 20px;
@@ -493,7 +486,6 @@ tbody td:last-child {
   color: var(--fondo);
 }
 
-/* === FOOTER === */
 footer {
   background-color: #040a18;
   border-top: 1px solid var(--borde);
@@ -549,7 +541,6 @@ footer {
   font-size: 0.82rem;
 }
 
-/* === RESPONSIVE === */
 @media (max-width: 768px) {
   .hero-texto h1 {
     font-size: 1.6rem;
